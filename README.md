@@ -2,3 +2,24 @@
 A ~basic~ file transfer utility for LAN networks
 1. This is a school project, though any modification/suggestion/criticism is welcome.
 2. Creators : Arqatron, Everytab
+
+PLEASE ENSURE THAT THE FOLLOWING MINIMUM REQUIREMENTS ARE MET FOR A SMOOTH EXPERIENCE: (UNLESS YOU'RE USING THE COMPILED EXE)
+
+
+======================================================================================================================================================================
+
+1. Python must be installed and correctly configured. Currently, Python (3.10+) is the latest and most compatible version of python with the application.
+   
+   ---
+2. MySQL connector for python must be installed.{<cmd> --> [pip install mysql.connector]}.For detailed querying, the client may also be installed. 
+   
+   ---
+3. Tkinter for python must be installed. {<cmd> --> [pip install tkinter]}
+
+
+=======================================================================================================================================================================
+
+4. Permission Levels:
+	0 ---> root
+	1 ---> privileged user/teacher
+	2 ---> unprivileged user/student
