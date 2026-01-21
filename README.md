@@ -20,6 +20,11 @@ PLEASE ENSURE THAT THE FOLLOWING MINIMUM REQUIREMENTS ARE MET FOR A SMOOTH EXPER
 =======================================================================================================================================================================
 
 4. Permission Levels:
+   
 	0 ---> root
+
+
 	1 ---> privileged user/teacher
+
+
 	2 ---> unprivileged user/student
