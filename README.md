@@ -11,7 +11,7 @@ PLEASE ENSURE THAT THE FOLLOWING MINIMUM REQUIREMENTS ARE MET FOR A SMOOTH EXPER
 1. Python must be installed and correctly configured. Currently, Python (3.10+) is the latest and most compatible version of python with the application.
    
    ---
-2. MySQL connector for python must be installed.{<cmd> --> [pip install mysql.connector]}.For detailed querying, the client may also be installed. 
+2. Pymysql for python must be installed.{<cmd> --> [pip install pymysql]}.For detailed querying, the client may also be installed. 
    
    ---
 3. Tkinter for python must be installed. {<cmd> --> [pip install tkinter]}
