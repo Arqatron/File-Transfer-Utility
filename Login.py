@@ -15,7 +15,7 @@ root.title('Decagon')
 init.SQLInit()
 #===========================================================================================================================================================================
 def chkfile(filename):
-    '''Checks for existence of file'''
+    '''Checks for existence of file entered in argument'''
     try:
         with open(filename, 'r'):
             return True
