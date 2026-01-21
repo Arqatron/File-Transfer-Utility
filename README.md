@@ -6,7 +6,7 @@ A ~basic~ file transfer utility for LAN networks
 PLEASE ENSURE THAT THE FOLLOWING MINIMUM REQUIREMENTS ARE MET FOR A SMOOTH EXPERIENCE: (UNLESS YOU'RE USING THE COMPILED EXE)
 
 
-======================================================================================================================================================================
+===============================================================================================
 
 1. Python must be installed and correctly configured. Currently, Python (3.10+) is the latest and most compatible version of python with the application.
    
@@ -17,7 +17,7 @@ PLEASE ENSURE THAT THE FOLLOWING MINIMUM REQUIREMENTS ARE MET FOR A SMOOTH EXPER
 3. Tkinter for python must be installed. {<cmd> --> [pip install tkinter]}
 
 
-=======================================================================================================================================================================
+================================================================================================
 
 4. Permission Levels:
    
