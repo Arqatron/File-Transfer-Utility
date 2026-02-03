@@ -12,10 +12,9 @@ opt=''
 global root
 root = tk.Tk()
 root.title('Decagon')
-init.SQLInit()
 #===========================================================================================================================================================================
 def chkfile(filename):
-    '''Checks for existence of file entered in argument'''
+    '''Checks for existence of file'''
     try:
         with open(filename, 'r'):
             return True
@@ -38,7 +37,7 @@ def login(logtry=False):
                 else:
                     pass
                 
-    #Auto in code:
+    #Auto login code:
                 
     #if logtry==True: 
        # if chkfile('logindetails.dat'):
@@ -186,26 +185,17 @@ def showmain(opt,perm,username):
         hiswin=tk.Toplevel(root)
         hiswin.geometry('800x600')
         hiswin.resizable(True,False)
+        table=ttk.Treeview(hiswin,columns=('File_Path','Date','Time','Sys'),show='headings')
+
+        table.heading('File_Path',text='File Path')
+        table.heading('Date',text='Date')
+        table.heading('Time',text='Time')
+        table.heading('Sys',text='Sys')
+        val=[(row[2],row[3],row[4],row[5]) for row in dat]
+        for row in val:
+            table.insert('','end',values=row)
+        table.pack(fill='both')
         
-        tk.Label(hiswin,text='File Path | Date | Time | Sys',font=('Times New Eoman',25)).place(x=250,y=0)
-        val=[]
-        for rec in dat:
-            val.append(rec[2])
-        varx=250
-        vary=40
-        result=tk.Label(hiswin,text='')
-        result.place(x=varx,y=vary)
-        def searchrec(arg):
-            ''''Accepts an argument of a transaction whose details are to be searched, and returns the details of that particular transition'''
-            result.config(text='')
-            for i in dat:
-                if i[2]!='None' and i[2]==arg:
-                    result.config(text=f'{i[2]} | {i[3]} | {i[4]} | {i[5]}',font=('Times New Roman',14))
-                  
-        select=ttk.Combobox(hiswin,values=val)
-        select.place(x=250,y=100)
-        search=ttk.Button(hiswin,text='Search',command=lambda:searchrec(str(select.get())))
-        search.place(x=250,y=150)
         
                     
                 
