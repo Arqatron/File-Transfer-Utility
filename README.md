@@ -16,7 +16,7 @@ PLEASE ENSURE THAT THE FOLLOWING MINIMUM REQUIREMENTS ARE MET FOR A SMOOTH EXPER
    ---
 3. Tkinter for python must be installed. {<cmd> --> [pip install tkinter]}
 
-4. DECLOG.py is the file to be run for starting the program. If it fails (for any reason (╯°□°)╯︵ ┻━┻ ) please start Login.py directly.
+4. Login.py is the file to be run for starting the program. If it fails (for any reason (╯°□°)╯︵ ┻━┻ ) please start Login.py directly.
 ================================================================================================
 
 4. Permission Levels:
